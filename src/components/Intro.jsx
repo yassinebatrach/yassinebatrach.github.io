@@ -5,7 +5,7 @@ function Intro() {
     <section className="intro">
       <h2>Introduzione</h2>
       <p>
-        Il disastro di Chernobyl avvenne il 26 aprile 1986, quando il reattore
+        Il  di Chernobyl avvenne il 26 aprile 1986, quando il reattore
         4 della centrale nucleare esplose causando il più grave incidente
         nucleare della storia.
       </p>
