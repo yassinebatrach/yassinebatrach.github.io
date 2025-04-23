@@ -20,7 +20,7 @@ export default function Introduction() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="../../assets/Plant_dopo2.jpg"
+              src="/Plant_dopo2.jpg"
               alt="Centrale Nucleare di Černobyl'"
               className="w-full h-auto"
             />
