@@ -3,23 +3,13 @@ import react from "@vitejs/plugin-react";
 import themePlugin from "@replit/vite-plugin-shadcn-theme-json";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
-import { viteStaticCopy } from "vite-plugin-static-copy";
+
 
 export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
     themePlugin(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: path.resolve(__dirname, "dist/public/index.html"),
-          dest: ".", // lo mette nella stessa cartella
-          rename: "404.html"
-        },
-      ],
-      watch: {}, // per evitare warning
-    }),
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
