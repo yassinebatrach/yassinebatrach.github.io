@@ -17,16 +17,16 @@ export const galleryImages = [
   {
     title: "Pripyat School",
     description: "Classrooms remain frozen in time, with textbooks and assignments still in place.",
-    imageUrl: "./assets/Pripyat_scuola.jpg"
+    imageUrl: "/Pripyat_scuola.jpg"
   },
   {
     title: "Abandoned Gas Masks",
     description: "Civil defense supplies remain scattered throughout buildings in the exclusion zone.",
-    imageUrl: "./assets/maschere.jpg"
+    imageUrl: "/maschere.jpg"
   },
   {
     title: "Azure Swimming Pool",
     description: "This pool remained in use by liquidators until 1996, years after the initial evacuation.",
-    imageUrl: "./assets/Piscina_dopo2.jpg"
+    imageUrl: "/Piscina_dopo2.jpg"
   },
 ];

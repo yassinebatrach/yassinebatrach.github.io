@@ -2,15 +2,15 @@ export const beforeAfterImages = [
   {
     title: "Pripyat City Center",
     description: "Confronto tra la piazza centrale di Pripyat prima del disastro e come appare oggi, invasa dalla natura dopo decenni di abbandono.",
-    beforeImage: "./assets/LeninSquare_prima.jpg",
-    afterImage: "./assets/LeninSquare_dopo.jpg"
+    beforeImage: "/LeninSquare_prima.jpg",
+    afterImage: "/LeninSquare_dopo.jpg"
     
   },
   {
     title: "Centrale Nucleare di Chernobyl",
     description: "La Centrale Nucleare di Chernobyl prima del disastro e con la struttura del New Safe Confinement (Nuovo Confinamento Sicuro) visibile oggi.",
-    beforeImage: "./assets/Plant_prima.jpg",
-    afterImage: "./assets/Plant_dopo.jpg"
+    beforeImage: "/Plant_prima.jpg",
+    afterImage: "/Plant_dopo.jpg"
   },
   {
     title: "Parco Divertimenti di Pripyat",
