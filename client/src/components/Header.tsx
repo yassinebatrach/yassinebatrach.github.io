@@ -65,7 +65,7 @@ export default function Header() {
           {/* Lang‑switch + burger */}
           <div className="flex items-center gap-2">
             <IconButton
-              sx={{ color: "white" }}
+              sx={{ color: "black" }}
               onClick={() => setLanguage(language === "en" ? "it" : "en")}
               aria-label="Switch language"
             >
@@ -75,7 +75,7 @@ export default function Header() {
             {/* burger solo su mobile */}
             <Button
               variant="text"
-              sx={{ display: { md: "none" }, color: "white" }}
+              sx={{ display: { md: "none" }, color: "black" }}
               onClick={toggleMobileMenu}
               aria-label="Menu"
             >
