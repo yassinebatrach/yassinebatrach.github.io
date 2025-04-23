@@ -4,9 +4,11 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-  "client:build": "vite build", 
-  "deploy": "gh-pages -d dist"
+  "client:build": "vite build",
+  "postbuild": "cp dist/index.html dist/404.html || copy dist\\index.html dist\\404.html",
+  "deploy": "npm run client:build && npm run postbuild && gh-pages -d dist"
 },
+
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
