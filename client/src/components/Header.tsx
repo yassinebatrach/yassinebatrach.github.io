@@ -14,15 +14,15 @@ export default function Header() {
     <header className="bg-primary-800 text-white shadow-md">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl md:text-3xl font-bold">Chernobyl: Prima & Dopo</h1>
+          <h1 className="text-2xl md:text-3xl font-bold">Chernobyl: Before & After</h1>
           <p className="text-primary-300 text-sm md:text-base">Historical Documentation Project</p>
         </div>
         <nav>
           <ul className="hidden md:flex space-x-6">
-            <li><a href="#introduction" className="hover:text-accent-400 transition-colors">Introduzione</a></li>
+            <li><a href="#introduction" className="hover:text-accent-400 transition-colors">Introduction</a></li>
             <li><a href="#timeline" className="hover:text-accent-400 transition-colors">Timeline</a></li>
-            <li><a href="#before-after" className="hover:text-accent-400 transition-colors">Prima & Dopo</a></li>
-            <li><a href="#gallery" className="hover:text-accent-400 transition-colors">Galleria</a></li>
+            <li><a href="#before-after" className="hover:text-accent-400 transition-colors">Before & After</a></li>
+            <li><a href="#gallery" className="hover:text-accent-400 transition-colors">Gallery</a></li>
           </ul>
           <Button 
             variant="text" 
@@ -43,7 +43,7 @@ export default function Header() {
               className="block hover:text-accent-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Introduzione
+              Introduction
             </a>
           </li>
           <li>
@@ -61,7 +61,7 @@ export default function Header() {
               className="block hover:text-accent-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Prima & Dopo
+              Before & After
             </a>
           </li>
           <li>
@@ -70,7 +70,7 @@ export default function Header() {
               className="block hover:text-accent-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Galleria
+              Gallery
             </a>
           </li>
         </ul>

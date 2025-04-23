@@ -6,16 +6,16 @@ export default function Introduction() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="text-lg mb-4 leading-relaxed">
-            Il reattore n. 4 di Chernobyl esplose nella notte tra il 25 e il 26 aprile 1986 durante un test di sicurezza a causa di un reattore RBMK instabile e procedure errate, causando il peggior disastro nucleare della storia.
+            Reactor No.4 at Chernobyl exploded during the night of 25-26 April 1986 while a safety test was underway. An unstable RBMK design combined with flawed procedures triggered the blast, sparking the worst nuclear disaster in history.
             </p>
             <p className="text-lg mb-4 leading-relaxed">
-            L'esplosione rilasciò molti radionuclidi in Europa, portando all'evacuazione tardiva e all'abbandono di Pripyat, mentre l'URSS inizialmente tentò di minimizzare l'accaduto con segretezza.
+            The explosion spewed a cocktail of radionuclides across Europe. Evacuation of the nearby city of Pripyat was delayed, and the Soviet Union's first reflex was secrecy, downplaying what had happened.
             </p>
             <p className="text-lg mb-4 leading-relaxed">
-            La Svezia scoprì radiazioni anomale il 28 aprile, forzando Mosca ad ammettere l'incidente e ad avviare urgenti operazioni di contenimento, tra cui la costruzione di un sarcofago.
+            On 28 April, Sweden's radiation monitors picked up abnormal levels, forcing Moscow to admit the incident and launch frantic containment efforts—including construction of the concrete “sarcophagus.”
             </p>
             <p className="text-lg leading-relaxed">
-            Questo sito illustra la storica trasformazione post-disastro di Chernobyl con confronti visivi, evidenziando l'importanza di sicurezza, trasparenza e normative per tecnologie rischiose.
+            This site traces Chernobyl's post-disaster transformation through visual comparisons, underscoring the need for safety, transparency, and tight regulation whenever high-risk technologies are in play.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
@@ -25,7 +25,7 @@ export default function Introduction() {
               className="w-full h-auto"
             />
             <div className="bg-primary-100 p-4">
-              <p className="text-sm text-primary-600">La Centrale Nucleare di Chernobyl come appare oggi, con la nuova struttura di contenimento "New Safe Confinement" visibile attorno al Reattore No. 4.</p>
+              <p className="text-sm text-primary-600">Chernobyl Nuclear Power Plant as it appears today, with the “New Safe Confinement” structure now enclosing Reactor No.4.</p>
             </div>
           </div>
         </div>

@@ -7,14 +7,14 @@ export const beforeAfterImages = [
     
   },
   {
-    title: "Centrale Nucleare di Chernobyl",
-    description: "La Centrale Nucleare di Chernobyl prima del disastro e con la struttura del New Safe Confinement (Nuovo Confinamento Sicuro) visibile oggi.",
+    title: "Nuclear Power Plant of Chernobyl",
+    description: "Chernobyl Nuclear Power Plant—shown both before the disaster and today, with the New Safe Confinement structure now in place.",
     beforeImage: "/Plant_prima.jpg",
     afterImage: "/Plant_dopo.jpg"
   },
   {
-    title: "Parco Divertimenti di Pripyat",
-    description: "Il parco divertimenti di Pripyat doveva aprire il 1° maggio 1986, ma il disastro avvenne pochi giorni prima. Oggi rappresenta uno dei simboli più iconici della città abbandonata.",
+    title: "Pripyat Amusement Park",
+    description: "Pripyat's amusement park was scheduled to open on 1 May 1986, but the disaster struck just days earlier. Today the rusting rides stand as one of the abandoned city's most haunting landmarks.",
     beforeImage: "https://images.unsplash.com/photo-1562651139-75c077793d06?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
     afterImage: "https://images.unsplash.com/photo-1619468610257-64265f899803?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
   }

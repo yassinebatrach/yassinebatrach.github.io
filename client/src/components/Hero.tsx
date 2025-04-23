@@ -8,7 +8,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Disastro di Chernobyl</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Chernobyl Disaster</h1>
         <p className="text-xl md:text-2xl max-w-3xl">Documenting the history and impact of one of the world's worst nuclear catastrophes</p>
       </div>
     </section>

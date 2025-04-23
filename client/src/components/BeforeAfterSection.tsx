@@ -4,7 +4,7 @@ export default function BeforeAfterSection() {
   return (
     <section id="before-after" className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Prima & Dopo</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Before & After</h2>
         
         <div className="space-y-16">
           {beforeAfterImages.map((item, index) => (
@@ -19,7 +19,7 @@ export default function BeforeAfterSection() {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <p className="mt-2 text-sm font-medium text-center">Prima del disastro</p>
+                  <p className="mt-2 text-sm font-medium text-center">Before the disaster</p>
                 </div>
                 <div className="bg-gray-100 p-2 rounded-lg">
                   <div className="aspect-video overflow-hidden rounded-md">
@@ -29,7 +29,7 @@ export default function BeforeAfterSection() {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <p className="mt-2 text-sm font-medium text-center">Oggi</p>
+                  <p className="mt-2 text-sm font-medium text-center">Today</p>
                   
                 </div>
               </div>

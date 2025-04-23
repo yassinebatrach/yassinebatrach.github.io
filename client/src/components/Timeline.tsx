@@ -4,7 +4,7 @@ export default function Timeline() {
   return (
     <section id="timeline" className="py-16 bg-primary-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Timeline degli Eventi  </h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center"> Timeline of Events</h2>
         
         <div className="space-y-8 pl-10">
           {timelineEvents.map((event, index) => (
