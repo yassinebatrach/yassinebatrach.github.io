@@ -13,7 +13,7 @@ export default function Header() {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <header className="bg-primary-800 text-white shadow-md">
+    <header className="bg-primary-800 text-black shadow-md">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         {/* Logo / titolo */}
         <div>
