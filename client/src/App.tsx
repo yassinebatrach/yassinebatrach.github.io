@@ -6,6 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { queryClient } from "./lib/queryClient";
 import Home from "./pages/Home";
 import NotFound from "./pages/not-found";
+import { LanguageProvider } from "./contexts/LanguageContext";
 
 const theme = createTheme({
   palette: {
@@ -17,11 +18,13 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Switch>
-          <Route path="/" component={Home} />
-          <Route component={NotFound} />
-        </Switch>
+        <LanguageProvider>
+          <CssBaseline />
+          <Switch>
+            <Route path="/" component={Home} />
+            <Route component={NotFound} />
+          </Switch>
+        </LanguageProvider>
       </ThemeProvider>
     </QueryClientProvider>
   );
