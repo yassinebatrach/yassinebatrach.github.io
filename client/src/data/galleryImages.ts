@@ -39,16 +39,16 @@ export const galleryImages = [
       en: {
         title: "Pripyat Amusement Park",
         description:
-          "The iconic ferris wheel that never had its grand opening.",
+          "The rusting rides are now haunting landmarks.",
       },
       it: {
         title: "Parco dei Divertimenti di Pripjat'",
         description:
-          "La famosa ruota panoramica che non ha mai avuto la sua inaugurazione.",
+          "Le giostre arrugginite sono oggi un simbolo inquietante.",
       },
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1562651139-75c077793d06?auto=format&fit=crop&w=600&q=80",
+      "park_after2.jpg",
   },
   {
     id: "school",

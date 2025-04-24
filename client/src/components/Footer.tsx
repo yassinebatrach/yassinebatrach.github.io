@@ -9,7 +9,7 @@ const t = {
       "Images sourced from various historical archives and photographers. All rights belong to their respective owners.",
     learn: "Learn More",
     copyright:
-      "© 2023 Chernobyl Historical Documentation Project. This site is for educational purposes only.",
+      "© 2025 Chernobyl Historical Documentation Project. This site is for educational purposes only.",
   },
   it: {
     title: "Chernobyl: Prima & Dopo",
@@ -19,7 +19,7 @@ const t = {
       "Immagini provenienti da vari archivi storici e fotografi: tutti i diritti appartengono ai rispettivi proprietari.",
     learn: "Approfondisci",
     copyright:
-      "© 2023 Progetto di Documentazione Storica su Chernobyl. Sito a solo scopo educativo.",
+      "© 2025 Progetto di Documentazione Storica su Chernobyl. Sito a solo scopo educativo.",
   },
 };
 

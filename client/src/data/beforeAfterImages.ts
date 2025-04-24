@@ -39,17 +39,17 @@ export const beforeAfterImages = [
       en: {
         title: "Pripyat Amusement Park",
         description:
-          "Scheduled to open on 1 May 1986, but the disaster struck days earlier. The rusting rides are now haunting landmarks.",
+          "Scheduled to open on 1 May 1986, but the disaster struck days earlier. Let's see the famous Ferris wheel today and how it was supposed to be.",
       },
       it: {
         title: "Parco Divertimenti di Pripjat'",
         description:
-          "Doveva inaugurare il 1° maggio 1986, ma il disastro arrivò pochi giorni prima. Le giostre arrugginite sono oggi un simbolo inquietante.",
+          "Doveva inaugurare il 1° maggio 1986, ma il disastro arrivò pochi giorni prima. Vediamo la famosissima ruota panoramica oggi e come doveva era.",
       },
     },
     beforeImage:
-      "https://images.unsplash.com/photo-1562651139-75c077793d06?auto=format&fit=crop&w=1000&q=80",
+      "park_before.webp",
     afterImage:
-      "https://images.unsplash.com/photo-1619468610257-64265f899803?auto=format&fit=crop&w=1000&q=80",
+      "park_after.jpg",
   },
 ];
