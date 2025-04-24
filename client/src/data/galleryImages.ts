@@ -10,11 +10,11 @@ export const galleryImages = [
       it: {
         title: "Centrale Nucleare di Chernobyl",
         description:
-          "La centrale oggi, con il sarcofago di protezione in posizione.",
+          "La centrale come la vediamo oggi, con il sarcofago di protezione in posizione.",
       },
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1583063375592-75c23c67ea1b?auto=format&fit=crop&w=600&q=80",
+      "power_plant.jpg",
   },
   {
     id: "streets",
@@ -31,7 +31,7 @@ export const galleryImages = [
       },
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1577279549270-b9e297533cdd?auto=format&fit=crop&w=600&q=80",
+      "pripyat.jpg",
   },
   {
     id: "amusement_park",
