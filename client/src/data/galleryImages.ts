@@ -1,32 +1,101 @@
 export const galleryImages = [
   {
-    title: "Chernobyl Nuclear Power Plant",
-    description: "The power plant as it appears today with the protective sarcophagus.",
-    imageUrl: "https://images.unsplash.com/photo-1583063375592-75c23c67ea1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    id: "npp",
+    translations: {
+      en: {
+        title: "Chernobyl Nuclear Power Plant",
+        description:
+          "The power plant as it appears today with the protective sarcophagus.",
+      },
+      it: {
+        title: "Centrale Nucleare di Chernobyl",
+        description:
+          "La centrale oggi, con il sarcofago di protezione in posizione.",
+      },
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1583063375592-75c23c67ea1b?auto=format&fit=crop&w=600&q=80",
   },
   {
-    title: "Abandoned Streets of Pripyat",
-    description: "Nature has reclaimed much of the city after decades of abandonment.",
-    imageUrl: "https://images.unsplash.com/photo-1577279549270-b9e297533cdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    id: "streets",
+    translations: {
+      en: {
+        title: "Abandoned Streets of Pripyat",
+        description:
+          "Nature has reclaimed much of the city after decades of abandonment.",
+      },
+      it: {
+        title: "Strade Abbandonate di Pripjat'",
+        description:
+          "La natura ha riconquistato gran parte della città dopo decenni di abbandono.",
+      },
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1577279549270-b9e297533cdd?auto=format&fit=crop&w=600&q=80",
   },
   {
-    title: "Pripyat Amusement Park",
-    description: "The iconic ferris wheel that never had its grand opening.",
-    imageUrl: "https://images.unsplash.com/photo-1562651139-75c077793d06?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    id: "amusement_park",
+    translations: {
+      en: {
+        title: "Pripyat Amusement Park",
+        description:
+          "The iconic ferris wheel that never had its grand opening.",
+      },
+      it: {
+        title: "Parco dei Divertimenti di Pripjat'",
+        description:
+          "La famosa ruota panoramica che non ha mai avuto la sua inaugurazione.",
+      },
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1562651139-75c077793d06?auto=format&fit=crop&w=600&q=80",
   },
   {
-    title: "Pripyat School",
-    description: "Classrooms remain frozen in time, with textbooks and assignments still in place.",
-    imageUrl: "/Pripyat_scuola.jpg"
+    id: "school",
+    translations: {
+      en: {
+        title: "Pripyat School",
+        description:
+          "Classrooms remain frozen in time, with textbooks and assignments still in place.",
+      },
+      it: {
+        title: "Scuola di Pripjat'",
+        description:
+          "Le aule sono rimaste congelate nel tempo, con libri di testo e compiti ancora al loro posto.",
+      },
+    },
+    imageUrl: "/Pripyat_scuola.jpg",
   },
   {
-    title: "Abandoned Gas Masks",
-    description: "Civil defense supplies remain scattered throughout buildings in the exclusion zone.",
-    imageUrl: "/maschere.jpg"
+    id: "gas_masks",
+    translations: {
+      en: {
+        title: "Abandoned Gas Masks",
+        description:
+          "Civil defense supplies remain scattered throughout buildings in the exclusion zone.",
+      },
+      it: {
+        title: "Maschere Abbandonate",
+        description:
+          "Le forniture di protezione civile rimangono sparse in tutti gli edifici nella zona di esclusione.",
+      },
+    },
+    imageUrl: "/maschere.jpg",
   },
   {
-    title: "Azure Swimming Pool",
-    description: "This pool remained in use by liquidators until 1996, years after the initial evacuation.",
-    imageUrl: "/Piscina_dopo2.jpg"
+    id: "swimming_pool",
+    translations: {
+      en: {
+        title: "Azure Swimming Pool",
+        description:
+          "This pool remained in use by liquidators until 1996, years after the initial evacuation.",
+      },
+      it: {
+        title: "Piscina Azzurra",
+        description:
+          "Questa piscina è rimasta in uso dai liquidatori fino al 1996, anni dopo l'evacuazione iniziale.",
+      },
+    },
+    imageUrl: "/Piscina_dopo2.jpg",
   },
 ];
