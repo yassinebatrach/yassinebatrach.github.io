@@ -18,7 +18,7 @@ export default function Header() {
         {/* Logo / titolo */}
         <div>
           <h1 className="text-2xl md:text-3xl font-bold">
-            Chernobyl: Before & After
+          {language === "en" ? "Chernobyl: Before & After" : "Chernobyl: Prima & Dopo"}
           </h1>
           <p className="text-primary-300 text-sm md:text-base">
             Historical Documentation Project
@@ -66,7 +66,10 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <IconButton
               sx={{ color: "black" }}
-              onClick={() => setLanguage(language === "en" ? "it" : "en")}
+              onClick={() => {
+                setLanguage(language === "en" ? "it" : "en");
+                console.log("LANG NOW:", language === "en" ? "it" : "en");
+              }}
               aria-label="Switch language"
             >
               <TranslateIcon />
