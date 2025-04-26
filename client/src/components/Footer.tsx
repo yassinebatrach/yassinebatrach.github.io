@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://web.archive.org/web/20170808212545/http://chornobyl.in.ua/en/"
+                  href="https://radioactivity.eu.com/articles/nuclearenergy/chernobyl_exclusion_zone"
                   className="hover:text-accent-400 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"

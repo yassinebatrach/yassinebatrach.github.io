@@ -9,7 +9,7 @@ const t = {
   it: {
     title: "Il Disastro di Chernobyl",
     subtitle:
-      "Documentazione della storia e dell'impatto di una delle peggiori catastrofi nucleari al mondo",
+      "Documentazione storica sull'impatto di una delle peggiori catastrofi nucleari al mondo",
   },
 };
 
@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       <img
-        src="https://images.unsplash.com/photo-1613576559440-0cca4cf0c113?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+        src="aerial_view.jpg"
         alt="Aerial view of Pripyat ghost town near Chernobyl"
         className="absolute inset-0 w-full h-full object-cover"
       />

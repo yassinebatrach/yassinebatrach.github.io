@@ -27,19 +27,27 @@ export default function Header() {
   const { language, setLanguage } = useLanguage();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const lbl = t[language]; // alias veloce alle stringhe correnti
+  const lbl = t[language];
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <header className="bg-primary-800 text-black shadow-md">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
-        {/* Titolo */}
-        <div>
-          <h1 className="text-2xl md:text-3xl font-bold">{lbl.title}</h1>
-          <p className="text-primary-300 text-sm md:text-base">{lbl.subtitle}</p>
+        <div className="flex items-center gap-4">
+          {/* Logo */}
+          <img
+            src="/logo.png" // metti il file in public/logo.png
+            alt="Chernobyl Logo"
+            className="w-12 h-12 rounded-full object-cover" // Tailwind per sistemarlo bello preciso
+          />
+          
+          {/* Titolo + sottotitolo */}
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold">{lbl.title}</h1>
+            <p className="text-primary-300 text-sm md:text-base">{lbl.subtitle}</p>
+          </div>
         </div>
 
-        {/* NAV desktop */}
         <nav>
           <ul className="hidden md:flex space-x-6">
             <li>
