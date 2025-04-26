@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           {/* Logo */}
           <img
-            src="/logo.png" // metti il file in public/logo.png
+            src="/logo.jpg" // metti il file in public/logo.png
             alt="Chernobyl Logo"
             className="w-12 h-12 rounded-full object-cover" // Tailwind per sistemarlo bello preciso
           />
